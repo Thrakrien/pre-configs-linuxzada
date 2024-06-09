@@ -22,6 +22,12 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 
 sudo apt-get update && sudo apt-get install spotify-client
 
+# configurando o tema de pastas (apenas Linux Mint)
+
+echo "Configurando o tema da interface de pastas"
+
+dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Dark-Aqua'"
+
 echo "Instalação concluída com sucesso"
 
 
