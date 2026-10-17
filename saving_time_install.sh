@@ -28,6 +28,18 @@ echo "Configurando o tema da interface de pastas"
 
 dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Dark-Aqua'"
 
+# instalando o tema do VSCode (Linuxzada Calm Dark)
+
+if command -v code > /dev/null; then
+    echo "Instalando o tema Linuxzada Calm Dark no VSCode"
+
+    SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+    mkdir -p ~/.vscode/extensions
+    cp -r "$SCRIPT_DIR/vscode-theme" ~/.vscode/extensions/linuxzada-calm-dark
+
+    echo "Tema instalado! Selecione em Preferences: Color Theme"
+fi
+
 echo "Instalação concluída com sucesso"
 
 
