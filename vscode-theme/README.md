@@ -35,7 +35,7 @@ O tema também tem suporte a *semantic highlighting*, então em linguagens com L
 
 ### Pelo script do repositório
 
-O `saving_time_install.sh` já copia o tema para `~/.vscode/extensions` se o VSCode estiver instalado.
+O `saving_time_install.sh` instala o VSCode (se precisar), copia o tema para `~/.vscode/extensions` e, se você ainda não tiver um `settings.json`, já deixa o tema e a JetBrainsMono Nerd Font ativados.
 
 ### Manualmente
 
