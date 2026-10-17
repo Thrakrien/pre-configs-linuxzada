@@ -104,14 +104,14 @@ if ! command -v code > /dev/null; then
     { sudo apt update && sudo apt install -y code; } || falhou "VSCode"
 fi
 
-# instalando o tema do VSCode (Linuxzada Calm Dark)
+# instalando o tema do VSCode (Anti-Blind Theme)
 
 if command -v code > /dev/null; then
-    echo "Instalando o tema Linuxzada Calm Dark no VSCode"
+    echo "Instalando o Anti-Blind Theme no VSCode"
 
     mkdir -p ~/.vscode/extensions
-    rm -rf ~/.vscode/extensions/linuxzada-calm-dark
-    cp -r "$SCRIPT_DIR/vscode-theme" ~/.vscode/extensions/linuxzada-calm-dark
+    rm -rf ~/.vscode/extensions/anti-blind-theme
+    cp -r "$SCRIPT_DIR/vscode-theme" ~/.vscode/extensions/anti-blind-theme
 
     # só cria o settings.json se ainda não existir, para não apagar as configs de ninguém
     VSCODE_SETTINGS="$HOME/.config/Code/User/settings.json"
@@ -119,7 +119,7 @@ if command -v code > /dev/null; then
         mkdir -p "$(dirname "$VSCODE_SETTINGS")"
         cat > "$VSCODE_SETTINGS" <<'EOF'
 {
-  "workbench.colorTheme": "Linuxzada Calm Dark",
+  "workbench.colorTheme": "Anti-Blind Theme",
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'FiraCode Nerd Font', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 15,

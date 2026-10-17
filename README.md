@@ -29,7 +29,7 @@ Rode o script como seu usuário normal (sem `sudo` na frente): ele pede a senha 
 | Bitwarden | Flatpak (pacote oficial do Bitwarden no Flathub) |
 | [uv](https://docs.astral.sh/uv/) (Python) | instalador oficial da Astral, em `~/.local/bin` |
 | VSCode | repositório oficial da Microsoft (só se ainda não estiver instalado) |
-| Tema Linuxzada Calm Dark | copiado para `~/.vscode/extensions` |
+| Anti-Blind Theme (VSCode) | copiado para `~/.vscode/extensions` |
 | Nerd Fonts | JetBrains Mono, Fira Code, Hack, Cascadia Code (CaskaydiaCove) e Geist Mono, em `~/.local/share/fonts` |
 | Fontes extras | Inter (interface), Noto Color Emoji e Font Awesome (ícones para barras como Polybar e Waybar) |
 | Tema de ícones `Mint-Y-Dark-Aqua` | `dconf` (apenas Linux Mint/Cinnamon) |
@@ -44,4 +44,4 @@ Depois de instaladas, elas aparecem com nomes como `JetBrainsMono Nerd Font` e `
 
 ## Tema do VSCode
 
-Na pasta [`vscode-theme`](vscode-theme) tem o **Linuxzada Calm Dark**, um tema dark com cores suaves pensado para quem tem astigmatismo. Se ainda não existir um `settings.json` do VSCode, o script já cria um com o tema e a JetBrainsMono Nerd Font ativados; se existir, ele não mexe nas suas configurações. Mais detalhes no [README do tema](vscode-theme/README.md).
+Na pasta [`vscode-theme`](vscode-theme) tem o **Anti-Blind Theme**, um tema dark com cores suaves pensado para quem tem astigmatismo. Se ainda não existir um `settings.json` do VSCode, o script já cria um com o tema e a JetBrainsMono Nerd Font ativados; se existir, ele não mexe nas suas configurações. Mais detalhes no [README do tema](vscode-theme/README.md).

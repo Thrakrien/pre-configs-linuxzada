@@ -1,4 +1,4 @@
-# Linuxzada Calm Dark
+# Anti-Blind Theme
 
 Tema dark para o VSCode pensado para **não cansar a vista**, principalmente de quem tem **astigmatismo**.
 
@@ -40,10 +40,10 @@ O `saving_time_install.sh` instala o VSCode (se precisar), copia o tema para `~/
 ### Manualmente
 
 ```
-cp -r vscode-theme ~/.vscode/extensions/linuxzada-calm-dark
+cp -r vscode-theme ~/.vscode/extensions/anti-blind-theme
 ```
 
-Depois reinicie o VSCode, abra a paleta de comandos (`Ctrl+Shift+P`), escolha **Preferences: Color Theme** e selecione **Linuxzada Calm Dark**.
+Depois reinicie o VSCode, abra a paleta de comandos (`Ctrl+Shift+P`), escolha **Preferences: Color Theme** e selecione **Anti-Blind Theme**.
 
 ## Dicas extras para astigmatismo
 
@@ -57,7 +57,7 @@ Algumas configurações do `settings.json` que ajudam junto com o tema:
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.renderLineHighlight": "line",
-  "workbench.colorTheme": "Linuxzada Calm Dark"
+  "workbench.colorTheme": "Anti-Blind Theme"
 }
 ```
 

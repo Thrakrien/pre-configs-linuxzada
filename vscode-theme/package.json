@@ -1,6 +1,6 @@
 {
-  "name": "linuxzada-calm-dark",
-  "displayName": "Linuxzada Calm Dark",
+  "name": "anti-blind-theme",
+  "displayName": "Anti-Blind Theme",
   "description": "Tema dark de baixo cansaço visual, pensado para quem tem astigmatismo: fundo cinza-azulado (sem preto puro), texto sem branco puro e cores pastel com contraste moderado.",
   "version": "1.0.0",
   "publisher": "thrakrien",
@@ -21,9 +21,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Linuxzada Calm Dark",
+        "label": "Anti-Blind Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/linuxzada-calm-dark-color-theme.json"
+        "path": "./themes/anti-blind-theme-color-theme.json"
       }
     ]
   }
